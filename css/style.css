@@ -1,3 +1,6 @@
 .mirror{
   transform: scaleX(-1);
 }
+.custom-space{
+  height: 60px;
+}
