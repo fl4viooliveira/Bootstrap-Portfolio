@@ -1,4 +1,4 @@
-:root {}
+/* :root {} */
 
 /* NAVBAR */
 .navbar {
@@ -33,7 +33,7 @@
 /* WORK */
 
 .work-box {
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .face-img {
