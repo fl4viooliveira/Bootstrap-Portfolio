@@ -1,97 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Portfolio</title>
 
-<!-- BOOTSTRAP -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<!-- CSS  -->
-<link rel="stylesheet" href="./css/style.css">
+  <!-- CSS  -->
+  <link rel="stylesheet" href="./css/style.css">
 
 </head>
+
 <body>
-  <div class="container">
   <!-- NAV BAR -->
+  <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-transparent">
+    <a class="navbar-brand pl-3" href="#hero">
+      Flavio Oliveira
+    </a>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2 fixed-top">
-      <a class="navbar-brand" href="#hero">
-        <img src="./images/flavio_face.png" width="30" height="30" class="d-inline-block align-top" alt="Flavio face">
-        Flavio Oliveira
-      </a>
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav p-3">
+        <li class="nav-item">
+          <a class="nav-link" href="#hero">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav ">
-          <li class="nav-item">
-            <a class="nav-link" href="#hero">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#work">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+  <!-- HERO -->
+  <section class="container-fluid hero" id="hero">
+    <div class="jumbotron custom-jumbo">
+      <div class="row row-custom">
+        <div class="col-sm-8 col-custom">
+          <div class="card p-3 mt-5 bg-transparent">
+            <div class="card-body">
+            <h1 class="display-4">Hello, I'm</h1>
+            <p class="lead">a developer with a versatile coding skill set.</p>
+            <p>I can help you get off scratch, projects as startups, portfolio pages, prototypes ideas, or create a web
+              application for your business.</p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#work" role="button">Take a Look</a>
+            </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-center">
+          <div class="face-img">
+          <img class=" img-fluid img-thumbnail rounded-circle mirror"  
+            src="./images/flavio_face.png" alt="Flavio face">
+
+          </div>
+        </div>
       </div>
-    </nav>
-
-<!-- HERO -->
-  <section id="hero">
-    <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </p>
     </div>
   </section>
 
-<!-- ABOUT -->
-  <section class="about-box" id="about">
-    <h1>About</h1>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container" >
-      </div>
-    </div>
-  </section>
-
-<!-- WORK -->
+  <!-- WORK -->
   <section class="work-box" id="work">
     <h1>Work</h1>
     <div class="jumbotron jumbotron-fluid">
-      <div class="container" >
+      <div class="container">
       </div>
     </div>
   </section>
 
-<!-- CONTACT -->
+  <!-- SKILLS -->
+  <section class="container about-box" id="skills">
+    <h1>Skills</h1>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ABOUT -->
+  <section class="container about-box" id="about">
+    <h1>About</h1>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
   <section class="contact-box" id="contact">
     <h1>Contact</h1>
     <div class="jumbotron jumbotron-fluid">
-      <div class="container" >
+      <div class="container">
       </div>
     </div>
   </section>
-  </div>
 
-  
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>
