@@ -18,9 +18,8 @@
 
 <body>
   <!-- NAV BAR -->
-  <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-light position-fixed ">
-    <a class="navbar-brand" href="#hero">
-      <img src="./images/flavio_face.png" width="30" height="30" class="d-inline-block align-top" alt="Flavio face">
+  <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-transparent">
+    <a class="navbar-brand pl-3" href="#hero">
       Flavio Oliveira
     </a>
 
@@ -28,9 +27,8 @@
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav ">
+      <ul class="navbar-nav p-3">
         <li class="nav-item">
           <a class="nav-link" href="#hero">Home</a>
         </li>
@@ -51,23 +49,29 @@
   </nav>
 
   <!-- HERO -->
-  <div class="custom-space"></div>
-  <section class="container-fluid" id="hero">
-    <div class="jumbotron">
-      <div class="row">
-        <div class="col-md-8">
-          <h1 class="display-4">Hello, I'm</h1>
-          <p class="lead">A developer with a versatile coding skill set.</p>
-          <hr class="my-4">
-          <p>I can help you get off scratch, projects as startups, portfolio pages, prototypes ideas, or create a web
-            application for your business.</p>
-          <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#work" role="button">Take a Look</a>
-          </p>
+  <section class="container-fluid hero" id="hero">
+    <div class="jumbotron custom-jumbo">
+      <div class="row row-custom">
+        <div class="col-sm-8 col-custom">
+          <div class="card p-3 mt-5 bg-transparent">
+            <div class="card-body">
+            <h1 class="display-4">Hello, I'm</h1>
+            <p class="lead">a developer with a versatile coding skill set.</p>
+            <p>I can help you get off scratch, projects as startups, portfolio pages, prototypes ideas, or create a web
+              application for your business.</p>
+            <p class="lead">
+              <a class="btn btn-primary btn-lg" href="#work" role="button">Take a Look</a>
+            </p>
+
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <img class="img-thumbnail float-right rounded-circle mirror" width="300" height="300"
-            src="./images/flavio_face.png" alt="flavio face">
+        <div class="col-sm-4 d-flex justify-content-center">
+          <div class="face-img">
+          <img class=" img-fluid img-thumbnail rounded-circle mirror"  
+            src="./images/flavio_face.png" alt="Flavio face">
+
+          </div>
         </div>
       </div>
     </div>

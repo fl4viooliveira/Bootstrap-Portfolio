@@ -1,6 +1,40 @@
-.mirror{
+:root {}
+
+/* NAVBAR */
+.navbar {
+  z-index: 100;
+}
+
+/* HERO */
+
+.hero {
+  height: 100vh;
+}
+
+.custom-jumbo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.mirror {
   transform: scaleX(-1);
 }
-.custom-space{
-  height: 60px;
+
+.card {
+  display: flex;
+  align-items: center;
+  border: none;
+  max-width: 450px;
+}
+
+.work-box {
+  height: 100vh;
+}
+
+.face-img {
+  max-width: 300;
+  margin: auto;
 }
