@@ -12,6 +12,11 @@ a {
   z-index: 100;
 }
 
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+
 /* HERO */
 
 .hero {
@@ -49,9 +54,8 @@ a {
 
 /* WORK */
 
-.work-box {
-  /* height: 100vh; */
-}
+/* .work-box {
+} */
 
 .face-img {
   max-width: 300;
