@@ -94,7 +94,7 @@ function connect() {
           (particlesArray[a].y - particlesArray[b].y);
       if (distance < (canvas.width / 7) * (canvas.height / 7)) {
         opacityValue = 1 - distance / 20000;
-        ctx.strokeStyle = "rgba(140,85,31," + opacityValue + ")";
+        ctx.strokeStyle = "rgba(245,208,66," + opacityValue + ")";
         ctx.lineWidth = 1;
         ctx.beginPath();
         ctx.moveTo(particlesArray[a].x, particlesArray[a].y);
@@ -108,7 +108,7 @@ function connect() {
 // particle array
 function init() {
   particlesArray = [];
-  let numberOfParticles = (canvas.height * canvas.width) / 19000;
+  let numberOfParticles = (canvas.height * canvas.width) / 39000;
 
   for (let i = 0; i < numberOfParticles; i++) {
     let size = Math.random() * 5 + 1;
@@ -116,7 +116,7 @@ function init() {
     let y = Math.random() * (innerHeight - size * 2 - size * 2) + size * 2;
     let directionX = Math.random() * 5 - 2.5;
     let directionY = Math.random() * 5 - 2.5;
-    let color = "#F5D042";
+    let color = "#FFFFFF";
 
     particlesArray.push(
       new Particle(x, y, directionX, directionY, size, color)
@@ -124,7 +124,7 @@ function init() {
   }
 }
 
-// animation loop
+// animation looexport type first = {second}p
 function animate() {
   requestAnimationFrame(animate);
   ctx.clearRect(0, 0, innerWidth, innerHeight);
