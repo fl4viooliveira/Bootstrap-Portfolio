@@ -1,5 +1,12 @@
 /* :root {} */
 
+/* RESET */
+a {
+  cursor: pointer;
+  text-decoration: none !important;
+  color: inherit;
+}
+
 /* NAVBAR */
 .navbar {
   z-index: 100;
