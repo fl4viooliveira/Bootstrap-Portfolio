@@ -58,15 +58,25 @@ a:hover {
   border: none;
 }
 
-.card {
-  padding: 10px;
+.card {}
+
+.card-hero {
   display: flex;
   align-items: center;
-  border: none;
   max-width: 450px;
-  overflow: hidden;
+  border: none;
 }
 
+.btn-custom {
+  border: 1px var(--light-main) solid;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.btn-custom:hover {
+  background-color: var(--light-main);
+  color: var(--main-color);
+}
 
 /* ANIMATION */
 .particles .scene {
@@ -83,6 +93,8 @@ a:hover {
   background: linear-gradient(145deg, #563976, #67438c);
   box-shadow: 9px 9px 20px #4d3269,
     -9px -9px 20px #734c9d;
+  overflow: hidden;
+  padding: 10px;
 }
 
 .card-custom:hover {
