@@ -69,8 +69,6 @@ a:hover {
   border: none;
 }
 
-.card {}
-
 .card-hero {
   display: flex;
   align-items: center;
@@ -125,6 +123,12 @@ a:hover {
 }
 
 /* SKILLS */
+.skills-jumbo {
+  border-radius: 20px;
+  background: #603f83;
+  box-shadow: inset 35px 35px 70px #4d3269,
+    inset -35px -35px 70px #734c9d;
+}
 
 /* ABOUT & CONTACT */
 .justify-text {
