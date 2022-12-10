@@ -1,4 +1,11 @@
-:root {}
+/* :root {} */
+
+/* RESET */
+a {
+  cursor: pointer;
+  text-decoration: none !important;
+  color: inherit;
+}
 
 /* NAVBAR */
 .navbar {
@@ -30,11 +37,21 @@
   max-width: 450px;
 }
 
+/* WORK */
+
 .work-box {
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .face-img {
   max-width: 300;
   margin: auto;
 }
+
+/* SKILLS */
+
+/* ABOUT */
+
+/* CONTACT */
+
+/* FOOTER */
