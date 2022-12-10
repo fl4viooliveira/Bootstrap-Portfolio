@@ -50,7 +50,10 @@ a {
 
 /* SKILLS */
 
-/* ABOUT */
+/* ABOUT & CONTACT */
+.justify-text {
+  text-align: justify;
+}
 
 /* CONTACT */
 
