@@ -65,15 +65,11 @@ button:hover {
 
 /* HERO */
 
-.hero {
-  height: 100vh;
-}
-
 .custom-jumbo {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  max-height: 80%;
   overflow: hidden;
   position: relative;
   border-radius: 20px;
@@ -152,6 +148,11 @@ button:hover {
 /* ABOUT & CONTACT */
 .justify-text {
   text-align: justify;
+}
+
+.btn-custom {
+  padding: 10px 30px;
+  margin: 0 auto;
 }
 
 /* FOOTER */
