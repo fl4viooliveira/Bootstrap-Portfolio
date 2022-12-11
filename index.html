@@ -7,6 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bootstrap Portfolio</title>
 
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
   <!-- BOOTSTRAP -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -30,16 +36,16 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav p-3">
         <li class="nav-item">
-          <a class="nav-link" href="#hero">Home</a>
+          <a class="nav-link link-custom" href="#hero">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#work">Work</a>
+          <a class="nav-link link-custom" href="#work">Work</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link link-custom" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about-contact">About & Contact</a>
+          <a class="nav-link link-custom" href="#about-contact">About & Contact</a>
         </li>
       </ul>
     </div>
@@ -55,7 +61,7 @@
 
       <div class="row row-custom">
         <div class="col-sm-8 col-custom">
-          <div class="card p-3 mt-5 bg-transparent">
+          <div class="card card-hero p-3 mt-5 bg-transparent">
             <div class="card-body">
               <h1 class="display-4">Hello, I'm</h1>
               <p class="lead">a developer with a versatile coding skill set.</p>
@@ -63,14 +69,14 @@
                 web
                 application for your business.</p>
               <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#work" role="button">Take a Look</a>
+                <a class="btn btn-custom btn-lg" href="#work" role="button">Take a Look</a>
               </p>
             </div>
           </div>
         </div>
         <div class="col-sm-4 d-flex justify-content-center">
           <div class="face-img">
-            <img class=" img-fluid img-thumbnail rounded-circle mirror" src="./images/flavio_face.png"
+            <img class=" img-fluid img-thumbnail rounded-circle mirror bg-transparent" src="./images/flavio_face.png"
               alt="Flavio face">
           </div>
         </div>
@@ -83,8 +89,8 @@
     <h1 class="text-center my-5">Work</h1>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+        <div class="col-md-4 d-flex justify-content-center mb-5">
+          <div class="card card-custom" style="width: 18rem;">
             <a href="https://blogproject.io" target="_blank">
               <img src="./images/portifolio-1.png" class="card-img-top" height="160" alt="Blog Project">
               <div class="card-body">
@@ -93,8 +99,8 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+        <div class="col-md-4 d-flex justify-content-center mb-5">
+          <div class="card card-custom" style="width: 18rem;">
             <a href="https://cousdela.com" target="_blank">
               <img src="./images/portifolio-2.png" class="card-img-top" height="160" alt="CDL">
               <div class="card-body">
@@ -103,8 +109,8 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+        <div class="col-md-4 d-flex justify-content-center mb-5">
+          <div class="card card-custom" style="width: 18rem;">
             <a href="https://fl4viooliveira.github.io/duda/" target="_blank">
               <img src="./images/portifolio-3.png" class="card-img-top" height="160" alt="Three.js">
               <div class="card-body">
@@ -115,8 +121,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+        <div class="col-md-4 d-flex justify-content-center mb-5">
+          <div class="card card-custom" style="width: 18rem;">
             <a href="https://4devbydev.vercel.app/" target="_blank">
               <img src="./images/portifolio-4.png" class="card-img-top" height="160" alt="4DevbyDev">
               <div class="card-body">
@@ -125,8 +131,8 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+        <div class="col-md-4 d-flex justify-content-center mb-5">
+          <div class="card card-custom" style="width: 18rem;">
             <a href="https://fl4viooliveira.github.io/bkg_grid_layout/public/index.html" target="_blank">
               <img src="./images/portifolio-5.png" class="card-img-top" height="160" alt="...">
               <div class="card-body">
@@ -135,8 +141,8 @@
             </a>
           </div>
         </div>
-        <div class="col-md-4 d-flex justify-content-center">
-          <div class="card" style="width: 18rem;">
+        <div class="col-md-4 d-flex justify-content-center mb-5">
+          <div class="card card-custom" style="width: 18rem;">
             <a href="https://fl4viooliveira.github.io/blogr_landing_page/" target="_blank">
               <img src="./images/portifolio-6.png" class="card-img-top" height="160" alt="...">
               <div class="card-body">
@@ -152,7 +158,7 @@
   <!-- SKILLS -->
   <section class="container-fluid skill-box" id="skills">
     <h1 class="text-center my-5">Skills</h1>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron skills-jumbo jumbotron-fluid">
       <p class="lead text-center">Skills learned from the BootCamp</p>
       <h3 class="mx-3">Git / GitHub</h3>
       <div class="progress m-3">
@@ -188,7 +194,7 @@
     <h1 class="text-center my-5">About & Contact</h1>
     <div class="row">
       <div class="col-md-6 d-flex justify-content-center">
-        <div class="card">
+        <div class="card bg-transparent border-0">
           <div class="card-body">
             <h5 class="card-title text-center">
               About Me
@@ -210,7 +216,7 @@
       </div>
 
       <div class="col-md-6 d-flex justify-content-center">
-        <div class="card">
+        <div class="card bg-transparent border-0">
           <h5 class="card-title text-center my-3">
             Contact
           </h5>
@@ -236,7 +242,9 @@
                 <textarea class="form-control" name="message" placeholder="Message" rows="6"></textarea>
               </div>
             </div>
-            <button type="submit" class="btn btn-primary">Send</button>
+            <div class="row">
+              <button type="submit" class="btn btn-custom btn-primary">Send</button>
+            </div>
           </form>
 
         </div>
@@ -245,15 +253,15 @@
   </section>
 
   <!-- FOOTER -->
-  <section class="container-fluid my-5 footer-box">
-    <footer class="text-center text-lg-start bg-dark text-white">
+  <section class="container-fluid my-5">
+    <footer class="text-center text-lg-start footer-box mx-1 ">
       <div class="container p-4 pb-0">
         <section class="">
 
           <div class="row">
 
             <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
-              <h6 class="text-uppercase mb-4 font-weight-bold">
+              <h6 class="mb-4 font-weight-bold brand">
                 Flavio Oliveira
               </h6>
               <p>
@@ -267,24 +275,24 @@
             <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">Work</h6>
               <p>
-                <a class="text-white" target="_blank" href="https://blogproject.io/">Markdown Blog</a>
+                <a class="work-link" target="_blank" href="https://blogproject.io/">Markdown Blog</a>
               </p>
               <p>
-                <a class="text-white" target="_blank" href="https://cousdela.com/">Cous De La Construction</a>
+                <a class="work-link" target="_blank" href="https://cousdela.com/">Cous De La Construction</a>
               </p>
               <p>
-                <a class="text-white" target="_blank" href="https://fl4viooliveira.github.io/duda/">Three.js - Study
+                <a class="work-link" target="_blank" href="https://fl4viooliveira.github.io/duda/">Three.js - Study
                   case</a>
               </p>
               <p>
-                <a class="text-white" target="_blank" href="https://4devbydev.vercel.app/">E-commerce Application</a>
+                <a class="work-link" target="_blank" href="https://4devbydev.vercel.app/">E-commerce Application</a>
               </p>
               <p>
-                <a class="text-white" target="_blank"
+                <a class="work-link" target="_blank"
                   href="https://fl4viooliveira.github.io/bkg_grid_layout/public/index.html">CSS Grid - Study case</a>
               </p>
               <p>
-                <a class="text-white" target="_blank" href="https://fl4viooliveira.github.io/blogr_landing_page/">Blogr
+                <a class="work-link" target="_blank" href="https://fl4viooliveira.github.io/blogr_landing_page/">Blogr
                   landing page
                 </a>
               </p>
@@ -388,8 +396,8 @@
     integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
     crossorigin="anonymous"></script>
 
-<!-- ANIMATION   -->
-<script src="./js/scene.js"></script>
+  <!-- ANIMATION   -->
+  <script src="./js/scene.js"></script>
 
 </body>
 
