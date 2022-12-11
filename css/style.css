@@ -40,6 +40,8 @@ button {
 button:hover {
   background-color: var(--main) !important;
   color: var(--light-main) !important;
+  box-shadow: 5px 5px 11px #311f44,
+    -5px -5px 11px #9a6bcc;
 }
 
 /* NAVBAR */
@@ -100,6 +102,8 @@ button:hover {
 .btn-custom:hover {
   background-color: var(--light-main);
   color: var(--main-color);
+  box-shadow: 5px 5px 11px #311f44,
+    -5px -5px 11px #9a6bcc;
 }
 
 /* ANIMATION */
